@@ -1,21 +1,15 @@
+/* phone - higher resolution (ppi) - greater font-size */
+/* smallest screen as standard */
 :root {
-  font-size: 1.15rem;
+  font-size: 150%;
 }
 
-/* **** devices **** */
-
-/* phone - higher resolution (ppi) - greater font-size */
-@media (min-width: 576px) { 
-  :root {
-    font-size: 1.8rem;
-    /* color: blueviolet; */
-  }
- }
+/* **** other devices **** */
 
 /* tablets */
 @media (min-width: 768px) { 
   :root {
-    font-size: 1.5rem;
+    font-size: 120%;
     /* color: chartreuse; */
   }  
  }
@@ -23,7 +17,7 @@
 /* desktops */
 @media (min-width: 992px) { 
   :root {
-    font-size: 1.25rem;
+    font-size: 100%;
     /* color: darkorange; */
   }  
  }
