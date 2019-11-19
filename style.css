@@ -2,6 +2,34 @@
   font-size: 1.15rem;
 }
 
+/* **** devices **** */
+
+/* phone - higher resolution (ppi) - greater font-size */
+@media (min-width: 576px) { 
+  :root {
+    font-size: 1.8rem;
+    /* color: blueviolet; */
+  }
+ }
+
+/* tablets */
+@media (min-width: 768px) { 
+  :root {
+    font-size: 1.5rem;
+    /* color: chartreuse; */
+  }  
+ }
+
+/* desktops */
+@media (min-width: 992px) { 
+  :root {
+    font-size: 1.25rem;
+    /* color: darkorange; */
+  }  
+ }
+
+ /********************************/
+/* font-size */
 
 .x-small {
   font-size: x-small;
